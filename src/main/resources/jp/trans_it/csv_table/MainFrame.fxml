@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jp.trans_it.csv_table.MainFrame">
+   <center>
+      <TableView fx:id="table" prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="132.3333740234375" text="名前" />
+          <TableColumn fx:id="colorColumn" prefWidth="60.6666259765625" text="色" />
+            <TableColumn fx:id="birthdayColumn" prefWidth="104.66668701171875" text="誕生日" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
